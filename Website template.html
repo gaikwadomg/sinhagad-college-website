@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Navbar Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+ <style>
+    /* Custom CSS styles can be added here */
+    .home-section {
+      padding: 100px 0;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
+    .home-section h1 {
+      font-size: 3em;
+      color: #333;
+    }
+    .home-section p {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+	/* Custom CSS styles can be added here */
+    .about-section {
+      padding: 80px 0;
+      background-color: #ffffff;
+      text-align: center;
+    }
+    .about-section h2 {
+      font-size: 2.5em;
+      color: #333;
+    }
+    .about-section p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 20px;
+    }
+
+ /* Custom CSS styles can be added here */
+    .services-section {
+      padding: 80px 0;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+    .services-section h2 {
+      font-size: 2.5em;
+      color: #333;
+    }
+    .services-section p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 20px;
+    }
+
+/* Custom CSS styles can be added here */
+    .contact-section {
+      padding: 80px 0;
+      background-color: #ffffff;
+      text-align: center;
+    }
+    .contact-section h2 {
+      font-size: 2.5em;
+      color: #333;
+    }
+    .contact-section p {
+      font-size: 1.2em;
+      color: #555;
+      margin-top: 20px;
+    }
+    .contact-section .contact-info {
+      margin-top: 40px;
+    }
+    .contact-section .contact-info p {
+      font-size: 1.1em;
+    }
+
+</style>
+<body>
+
+  <div class="navigationSection ">
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-fixed ">
+      <a class="navbar-brand" href="#"><img class="logoo" src="img3.jpg" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+</div>
+
+<section class="home-section imag">
+  <div class="container">
+    <h1>Welcome to Our Website</h1>
+    <p>Explore our services and discover more about us.</p>
+    <a href="#about" class="btn btn-primary">Get Started</a>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Sinhgad College of Science, established in the year 2001, is known for academic excellence which imparts quality education, provides best infrastructure, conducts extra-curricular activities,offers conventional and professional programs, encourages research activities and nurtures discipline among the student. We are proud to have an illuminating source of inspiration and visionary professor M. N. Navale, under his able guidance the colleges is striding towards success every year. Besides Under Graduate conventional programs like B. Com and B. Sc. the college offers professional programs like BBA, BBA-IB, BBA-CA B. Sc. Computer Science and B. Sc. Biotechnology. The college also offers M. Sc. Post Graduate programs in Computer Science, Microbiology, Petroleum technology and Geoinformatics.
+
+ </p>
+  
+  </div>
+</section>
+
+
+
+
+<section id="services" class="services-section">
+ 
+
+  
+  <div class="container mt-5 text-center">
+    <h2>Our Services</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white">
+        <img src="download.jpg" class="card-img-top" alt="Service 1">
+        <div class="card-body">
+          <h5 class="card-title">Service 1</h5>
+          <p class="card-text">Description of service 1.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white">
+        <img src="download (1).jpg" class="card-img-top" alt="Service 2">
+        <div class="card-body">
+          <h5 class="card-title">Service 2</h5>
+          <p class="card-text">Description of service 2.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white">
+        <img src="download.jpg" class="card-img-top" alt="Service 3">
+        <div class="card-body">
+          <h5 class="card-title">Service 3</h5>
+          <p class="card-text">Description of service 3.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <!-- contact form  -->
+    <div class="container mt-5">
+      <h2>Student Contact Form</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- contact ends form  -->
+    <p>Get in touch with us for any inquiries or questions.</p>
+    <div class="contact-info">
+      <p>Email: info@example.com</p>
+      <p>Phone: +1234567890</p>
+      <p>Address: 123 Street, City, Country</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>About Us</h3>
+        <p>A brief description about your company or website.</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Contact Information</h3>
+        <p>Email: info@example.com<br>Phone: +1234567890<br>Address: 123 Street, City, Country</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2023 YourWebsite. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+
+	.home-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+.home-section h1 {
+  font-size: 3em;
+  color: #fff;
+}
+.home-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+.home-section a.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.home-section a.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.about-section {
+  padding: 80px 0;
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+}
+.about-section h2 {
+  font-size: 2.5em;
+  color: #fff;
+}
+.about-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.services-section {
+  padding: 80px 0;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+}
+.services-section h2 {
+  font-size: 2.5em;
+  color: #fff;
+}
+.services-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+.services-section h3,
+.services-section p {
+  color: #ccc;
+}
+
+.contact-section {
+  padding: 80px 0;
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+}
+.contact-section h2 {
+  font-size: 2.5em;
+  color: #fff;
+}
+.contact-section p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+.contact-section .contact-info p {
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.footer p {
+  color: #ccc;
+}
+
+.footer p a {
+  color: #fff;
+}
+
+.footer p a:hover {
+  color: #bbb;
+}
+
+.imag{
+  background: url(img.png);
+  background-size: cover;
+}
+.logoo{
+  width: 80px;
+  height: 80px;
+}
+
+.navigationSection{
+  font-size: 17px;
+  background: #000;
+  text-align: center;
+}
+
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
