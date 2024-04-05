@@ -15,11 +15,11 @@
     }
     .home-section h1 {
       font-size: 3em;
-      color: #333;
+      color: rgb(39, 228, 228);
     }
     .home-section p {
       font-size: 1.2em;
-      color: #000;
+      color:  rgb(39, 228, 228);
     }
 
 	/* Custom CSS styles can be added here */
@@ -30,11 +30,11 @@
     }
     .about-section h2 {
       font-size: 2.5em;
-      color: #000;
+      color: #333;
     }
     .about-section p {
       font-size: 1.2em;
-      color: #555;
+      color:  rgb(39, 228, 228);
       margin-top: 20px;
     }
 
@@ -46,11 +46,11 @@
     }
     .services-section h2 {
       font-size: 2.5em;
-      color: #333;
+      color: rgb(39, 228, 228);
     }
     .services-section p {
       font-size: 1.2em;
-      color: #555;
+      color: rgb(39, 228, 228);
       margin-top: 20px;
     }
 
@@ -62,11 +62,11 @@
     }
     .contact-section h2 {
       font-size: 2.5em;
-      color: #333;
+      color: rgb(39, 228, 228);
     }
     .contact-section p {
       font-size: 1.2em;
-      color: #555;
+      color:  rgb(39, 228, 228);
       margin-top: 20px;
     }
     .contact-section .contact-info {
@@ -230,9 +230,9 @@
       <div class="card cardo bg-dark text-white">
         <img src="clg (1).jpeg" class="card-img-top" alt="Service 1">
         <div class="card-body ">
-          <h5 class="card-title">Lonavala College</h5>
+          <h5 class="card-title">Pandharpur College</h5>
           <p class="card-text">Description of service 1.</p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+          <a href="one.html" class="btn btn-primary">Learn More</a>
         </div>
       </div>
     </div>
@@ -241,8 +241,8 @@
         <img src="download (1).jpg" class="card-img-top" alt="Service 2">
         <div class="card-body">
           <h5 class="card-title">Service 2</h5>
-          <p class="card-text">Description of service 2.</p>
-          <a href="#" class="btn btn-primary">Learn More</a> 
+          <p class="card-text">Enginering College Pune</p>
+          <a href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/vadgaon_scoe/about.aspx" class="btn btn-primary">Learn More</a> 
         </div>
       </div>
     </div>
@@ -250,9 +250,9 @@
       <div class="card cardo bg-dark text-white">
         <img src="clg (2).jpeg" class="card-img-top" alt="Service 3">
         <div class="card-body">
-          <h5 class="card-title">Baramati College</h5>
+          <h5 class="card-title">Lonavala College</h5>
           <p class="card-text">Description of service 3.</p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+          <a href="two.html" class="btn btn-primary">Learn More</a>
         </div>
       </div>
     </div>
@@ -269,21 +269,59 @@
     <!-- contact form  -->
     <div class="container mt-5">
       <h2>Student Contact Form</h2>
-      <form>
+      <!-- <form>
         <div class="form-group">
-          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          <input type="text" pattern="A-Za-Z" class="form-control" id="name" placeholder="Enter your name">
         </div>
         <div class="form-group">
           <input type="email" class="form-control" id="email" placeholder="Enter your email">
         </div>
         <div class="form-group">
-          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+          <input type="tel" pattern="0-9" class="form-control" id="phone" placeholder="Enter your phone number">
         </div>
         <div class="form-group">
           <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </form> -->
+      <!-- from yamuna -->
+      <form action="" method="post" class="bg-dark p-4 m-auto">
+
+        <div class="row">
+            
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <input name="name" pattern="[A-Za-z\s]+" type="text" class="form-control" id="textInput" required placeholder="Enter Your Name here">
+                </div>
+            </div>
+            
+            <div class="col-md-12">
+                <div class="mb-3">                               
+                    <input type="email" name="email" id="email" class="form-control" required placeholder="Enter Your Email ID">
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="mb-3">
+                <input type="number" name="phone no " id="phno" class="form-control" required placeholder="Enter Your Phone No">
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="mb-3">
+                    <textarea name="query" id="query"  rows="3" class="form-control" required placeholder="Enter your Query "></textarea>                             
+            </div>
+        </div>
+
+        <button class="btn btn-success btn-lg btn-block mt-3">
+            Send Now
+        </button>
+        
+    </div>
+</form>
+
+
+      <!-- close  -->
     </div>
 
     <!-- contact ends form  -->
@@ -321,7 +359,7 @@
 	.home-section {
   padding: 100px 0;
   text-align: center;
-  background-color: #333;
+  background-color: rgb(39, 228, 228);
   color: #fff;
 }
 .home-section h1 {
@@ -358,7 +396,7 @@
 
 .services-section {
   padding: 80px 0;
-  background-color: #333;
+  background-color:  rgb(39, 228, 228);
   text-align: center;
   color: #fff;
 }
@@ -417,7 +455,7 @@
 }
 
 .imag{
-  background: url(img.png);
+  background: url(download.jpg);
   background-size: cover;
 }
 .logoo{
